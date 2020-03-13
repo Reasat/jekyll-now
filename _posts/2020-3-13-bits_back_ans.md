@@ -15,10 +15,11 @@ https://arxiv.org/pdf/1901.04866.pdf
 **What is a VAE?** <br/>
 https://arxiv.org/pdf/1312.6114.pdf
 From https://arxiv.org/pdf/1606.05908.pdf
-$$X=\{x^(i)\}^{N}_{i=1}$$, are the data samples, $z$ is the latent variable
+$$X={\{x^i\}}^{N}_{i=1}$$, are the data samples, $$z$$ is the latent variable <br/>
 $$ p_{\theta}(x)$$ is the marginal likelihood <br/>
-$$p_{\theta}(z)$$ is the prior and $$\int p_{\theta}(x|z; \theta) $$ is the posterior likelihood <br/>
-$$p_{\theta}(x|z; \theta)$$ is the likelihood function. 
+$$p_{\theta}(z)$$ is the prior and $$\int p_{\theta}(x|z) $$ is the posterior likelihood <br/>
+$$p_{\theta}(x|z)$$ is the likelihood function. 
+ $$\int p_{\theta}(x|z)$$ is computationally intractable, this is approximated by $$\int q_{\theta}(x|z)$$
 
 **Why does encoding\decoding with VAEs produce a lossless compression?**<br/>
 **Why not use a simple autoencoder?**<br/>
