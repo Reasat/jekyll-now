@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trying to understand bits-back coding"
+mathjax: true
 ---
 
 **Practical lossless compression with latent variables using bits back coding**
