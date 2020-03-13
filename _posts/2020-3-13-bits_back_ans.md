@@ -12,10 +12,13 @@ https://arxiv.org/pdf/1901.04866.pdf
 **VAE** used to encode input to latent space and also decode input from latent space. This works as the first level of compression?
 **BB-ANS** used to further compress the latent space.
 
-**What is VAE?** <br/>
-$$ P(x) = \int P(X|z; \theta) P(z)dz $$ <br/>
-$$ P(X) $$ is data distribution $$z$$ is the latent variable. <br/> 
-$$P(X|z; \theta)$$ is the likelihood function. 
+**What is a VAE?** <br/>
+https://arxiv.org/pdf/1312.6114.pdf
+From https://arxiv.org/pdf/1606.05908.pdf
+$$X=\{x^(i)\}^{N}_{i=1}$$, are the data samples, $z$ is the latent variable
+$$ p_{\theta}(x)$$ is the marginal likelihood <br/>
+$$p_{\theta}(z)$$ is the prior and $$\int p_{\theta}(x|z; \theta) $$ is the posterior likelihood <br/>
+$$p_{\theta}(x|z; \theta)$$ is the likelihood function. 
 
 **Why does encoding\decoding with VAEs produce a lossless compression?**<br/>
 **Why not use a simple autoencoder?**<br/>
