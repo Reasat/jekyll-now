@@ -2,6 +2,9 @@
 layout: post
 title: Trying to understand bits-back coding
 ---
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 **Practical lossless compression with latent variables using bits back coding**
 *James Townsend, Thomas Bird, David Barber*
