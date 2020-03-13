@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trying to understand the bits-back coding
+title: Trying to understand bits-back coding
 ---
 
 **Practical lossless compression with latent variables using bits back coding**
