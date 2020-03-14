@@ -8,7 +8,7 @@ mathjax: true
 *James Townsend, Thomas Bird, David Barber*<br/>
 https://arxiv.org/pdf/1901.04866.pdf
 
-**Components of the compression pipeline**
+**Components of the compression pipeline**<br/>
 **VAE** used to encode input to latent space and also decode input from latent space. This works as the first level of compression?
 **BB-ANS** used to further compress the latent space.
 
@@ -16,7 +16,7 @@ https://arxiv.org/pdf/1901.04866.pdf
 https://arxiv.org/pdf/1312.6114.pdf
 
 https://arxiv.org/pdf/1606.05908.pdf
-![VAE Model]({{ '/images/vae_model.png' | relative_url }}) {: style="width: 640px;" class="center"} Fig. 1. Figure 1: The type of directed graphical model under consideration. Solid lines denote the generative
+![image]({{ '/images/vae_model.png' | relative_url }}) {: style="width: 640px;" class="center"} Fig. 1. Figure 1: The type of directed graphical model under consideration. Solid lines denote the generative
 model pθ(z)pθ(x|z), dashed lines denote the variational approximation qφ(z|x) to the intractable
 posterior pθ(z|x). The variational parameters φ are learned jointly with the generative model parameters θ.
 
