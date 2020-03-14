@@ -16,9 +16,7 @@ https://arxiv.org/pdf/1901.04866.pdf
 https://arxiv.org/pdf/1312.6114.pdf
 
 https://arxiv.org/pdf/1606.05908.pdf
-![image]({{ '/assets/images/vae_model.png' | relative_url }}) {: style="width: 640px;" class="center"} Fig. 1. Figure 1: The type of directed graphical model under consideration. Solid lines denote the generative
-model pθ(z)pθ(x|z), dashed lines denote the variational approximation qφ(z|x) to the intractable
-posterior pθ(z|x). The variational parameters φ are learned jointly with the generative model parameters θ.
+<img src="/assets/images/vae_model.png" alt="">
 
 $$X={\{x^i\}}^{N}_{i=1}$$, is the set of data samples, $$z$$ is the latent variable <br/>
 $$ p_{\theta}(x)$$ is the marginal likelihood <br/>
