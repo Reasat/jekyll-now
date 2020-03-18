@@ -1,8 +1,6 @@
-{% include script.html %}
 ---
 layout: post
 title: "Practical lossless compression with latent variables using bits back coding"
-mathjax: true
 ---
 *James Townsend, Thomas Bird, David Barber*<br/>
 https://arxiv.org/pdf/1901.04866.pdf
