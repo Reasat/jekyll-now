@@ -1,3 +1,4 @@
+{% include script.html %}
 ---
 layout: post
 title: "Practical lossless compression with latent variables using bits back coding"
